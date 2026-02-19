@@ -1,12 +1,13 @@
 name: 연습
 
 on:
-  push:
-    branches: main
+	push:
+  	branches: 
+			- main
 
 jobs:
 	deploy:
 		runs-on: ubuntu-latest
 		steps:
 			- name: 출력하기
-				run: echo 'github actions' 
+				run: echo "github actions"
